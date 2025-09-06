@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sleepy - Présentation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <button class="toggle" id="toggle" aria-label="Activer l’animation">
+    <span class="circle" aria-hidden="true"></span>
+  </button>
+
+  <div class="cloud-wrapper cloud-left">
+    <span class="corde" aria-hidden="true"></span>
+    <img src="cloud.svg" alt="Nuage décoratif" class="cloud">
+  </div>
+  <div class="cloud-wrapper cloud-right">
+    <span class="corde" aria-hidden="true"></span>
+    <img src="cloud.svg" alt="Nuage décoratif" class="cloud">
+  </div>
+  <div class="cloud-wrapper cloud-left2">
+    <span class="corde" aria-hidden="true"></span>
+    <img src="cloud.svg" alt="Nuage décoratif" class="cloud">
+  </div>
+  <div class="cloud-wrapper cloud-right2">
+    <span class="corde" aria-hidden="true"></span>
+    <img src="cloud.svg" alt="Nuage décoratif" class="cloud">
+  </div>
+
+  <main class="content" id="content" aria-live="polite">
+    <h1>Contrôlez votre sommeil <br> chaque jour</h1>
+    <p>Un petit pas vers une nuit paisible...</p>
+    <img src="main Screen.svg" alt="Aperçu de l’app Sleepy" class="phone">
+  </main>
+  
+  <section class="note-section">
+    <div class="note-bg"></div>
+  
+    <div class="note-content top-right">
+      <h1 class="note-title">Note d’intention</h1>
+      <h2>Contexte</h2>
+      <p>
+        Le manque de sommeil et la mauvaise qualité du repos sont devenus des problèmes majeurs
+        dans nos sociétés modernes. Entre écrans, stress et horaires irréguliers, beaucoup de personnes peinent à trouver un équilibre.
+      </p>
+    </div>
+  
+    <div class="note-content middle-left">
+      <h2 class="note-title">Intention</h2>
+      <p>
+        Avec Sleepy, je souhaite proposer une application qui aide chacun à mieux comprendre et améliorer son sommeil. L’idée n’est pas d’imposer une méthode unique, mais d’accompagner l’utilisateur de manière douce et personnalisée.
+      </p>
+    </div>
+  
+    <div class="note-content bottom-right">
+      <h2 class="note-title">Objectifs</h2>
+      <p>
+        - Encourager des habitudes régulières <br> (horaires de coucher et de lever). <br>
+        - Fournir des outils simples <br> (statistiques, rappels, conseils personnalisés). <br>
+        - Créer une ambiance apaisante grâce à une identité visuelle douce, minimaliste et sombre, rappelant la nuit. <br>
+        - Mettre en avant des exercices pratiques (respiration, méditation, rituels du soir). <br>
+      </p>
+    </div>
+  </section>
+
+  <section class="bienvenue-section">
+    <div class="bienvenue-content">
+      <h1 class="bienvenue-title">Bienvenue</h1>
+      <p class="bienvenue-text">
+        Votre sommeil mérite toute votre attention. <br>
+        Commencez ici. 
+       
+      </p>
+      <a href="contact.html" class="btn-contact">Nous contacter</a>
+    </div>
+  </section>
+
+  <section class="image-flow"></section>
+
+  <section class="image-colors"></section>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
